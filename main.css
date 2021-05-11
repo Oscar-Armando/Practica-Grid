@@ -4,19 +4,180 @@
     padding: 0;
 }
 
-#container {
+#container 
+{
     display: grid;
-    /* grid-template-columns: 200px 200px 200px;
-    grid-template-rows: 200px 200px 200px; */
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(12, 1fr);
+    /*grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;*/
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(4, 1fr);
 }
 
-img {
+#uno
+{
+    width: 100%;
+    height:100%;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+#dos
+{
+    width: 100%;
+    height:100%;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 1;
+}
+#tres
+{
     width: 100%;
     height:100%;
     grid-column-start: 3;
     grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 1;
 }
+#cuatro
+{
+    width: 100%;
+    height:100%;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 1;
+}
+#cinco
+{
+    width: 100%;
+    height:100%;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 1;
+}
+#seis
+{
+    width: 100%;
+    height:100%;
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 1;
+}
+#siete
+{
+    width: 100%;
+    height:100%;
+    grid-column-start: 7;
+    grid-column-end: 8;
+    grid-row-start: 2;
+    grid-row-end: 1;
+}
+#ocho
+{
+    width: 100%;
+    height:100%;
+    grid-column-start: 8;
+    grid-column-end: 9;
+    grid-row-start: 2;
+    grid-row-end: 1;
+}
+#nueve
+{
+    width: 100%;
+    height:100%;
+    grid-column-start: 9;
+    grid-column-end: 9;
+    grid-row-start: 2;
+    grid-row-end: 1;
+}
+
+#dies
+{
+    width: 100%;
+    height:100%;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+#once
+{
+    width: 100%;
+    height:100%;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+#doce
+{
+    width: 100%;
+    height:100%;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#trece
+{
+    width: 100%;
+    height:100%;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+#catorce
+{
+    width: 100%;
+    height:100%;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+
+#quince
+{
+    width: 100%;
+    height:100%;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+#dieciseis
+{
+    width: 100%;
+    height:100%;
+    grid-column-start: 7;
+    grid-column-end: 8;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+#diecisiete
+{
+    width: 100%;
+    height:100%;
+    grid-column-start: 9;
+    grid-column-end: 9;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+#dieciocho
+{
+    width: 100%;
+    height:100%;
+    grid-column-start: 9;
+    grid-column-end: 9;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+
+
